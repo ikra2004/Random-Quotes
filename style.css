@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #E4B1F0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url("https://i.pinimg.com/enabled_hi/564x/44/c2/eb/44c2eb24448f23787bf6609b4b22b3d6.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffd6eb;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: solid #151415;
+  background-image: url("https://i.pinimg.com/enabled_hi/564x/e1/e8/68/e1e8680db87e1c05ac45764af08261cf.jpg");
+  
+}
+
+#advice-container {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fff2e6;
+  border: 2px solid #0e151c;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #560743;
+  color: rgb(250, 247, 247);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e764b7;
+}
+
+.search-section {
+  margin-top: 30px;
+}
+
+
+
+#search-results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .search-result-card {
+    background-color: #f3a6eb;
+    border: 1px solid #232020;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-image: url("https://i.pinimg.com/236x/0a/66/3e/0a663efbe687d39ca50b0b5786d4e547.jpg");
+
+  }
+  
+  .search-result-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .search-result-card p {
+    font-size: 16px;
+    font-style: italic;
+    color: #050505;
+  }
+  
+  .search-result-card span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #553e54;
+  }
+  
+  
+#search-query {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #151415;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffe5f1;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+
+#search-query:focus {
+  outline: none;
+  border-color: #e764b7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#search-btn {
+  margin-left: 10px;
+}
